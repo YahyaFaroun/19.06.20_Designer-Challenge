@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+h2{
+    font-size: 3em;
+}
+.numbers{
+    font-size: 3.5rem;
+    color: rgba(0, 0, 0, .15);
+    font-weight: 600;
+}
+
+#main header{
+    padding-top: 20px;
+}
+#main header img{
+    width: 30px;
+    position: fixed;
+    margin-left: 3%;
+}
+#main header h5{
+    text-decoration: none;
+    color: #0b0c17;
+    padding-left: 7%;
+    font-weight: 700;
+    font-size: larger;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#main header h6{
+    padding-left: 7%;
+    font-size: small;
+    font-size: 0.6em;
+    font-weight: 400;
+    margin-top: 0;
+}
+#main{
+    background-image: url(../img/ilustracion1.png);        
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 55%;
+}
+#main h1{
+    padding-top: 30vh;
+    padding-left: 10%;
+    font-size: 3.5rem;
+    width: 40%; 
+    margin-bottom: 10px;
+}
+#main p{
+    width: 45%;
+    padding-left: 10%;
+    font-size: 1.2em;
+    font-weight: 300;
+    margin-bottom: 10vh;
+}
+#main p img{                       
+    width: 5%;
+    height: 5%;
+}
+#main a{
+    text-decoration: none;
+    color: #ff3571;
+    padding-left: 10%;  
+    font-size: .7em;
+    font-weight: bold;
+}
+#man{
+    width: 55%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+/* Section 2 - 8-Bilder*/
+#bilder8 img{
+    width: 100%;
+    margin: 10vh auto;
+}
+
+
+
+/*Section3 - Idea */
+#idea{
+    margin: 20vh 12% auto;
+    height: 80vh;
+    
+}
+#idea div h2{
+    float: left;
+    width: 35%;
+    
+}
+#idea div p{
+    float: right;
+    width: 57%;
+    line-height: 30px;
+    font-weight: 300;
+    padding-top: 30px;
+}
+#idea span img{
+    width: 15%;
+    height: 15%;
+}
+#idea div:last-of-type h2{
+    margin-top: 20vh;
+    width: 70%;
+} 
+
+
+
+/* Section 4 icons*/
+#icons{
+    margin-top: 40vh;
+    padding-left: 14%;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+}
+#icons div{
+    width: 35%;
+
+    margin-right: 10%;
+}
+#icons h4{
+    margin-top: 0;
+}    
+
+#icons p{
+    font-weight: 300;
+    font-size: .9em;
+    line-height: 25px;
+}
+#icons img{
+    width: 25px;
+    position: relative;
+    left: -40px;
+    top: 25px;
+}
+
+
+
+/*Section 5 ready*/
+#ready{
+    margin-top: 25vh;
+    text-align: center;
+}
+#ready p{
+    font-size: 1.2rem;
+    font-weight: 300;
+    text-align: center;
+    margin: 0 20%;
+    line-height: 25px;
+}
+
+
+
+/*Section 6 rocket*/
+#rocket{
+    background-image: url(../img/step01.png);
+    background-position: left;
+  
+    margin: 10vh 4% auto 8%;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: 40%;
+    padding-left: 46%;
+} 
+#rocket h1{
+    padding-top: 10vh;
+}
+#rocket img{
+    width: 8%;
+}
+#rocket p{
+    font-weight: 300;
+    line-height: 30px;
+    font-size: .9em;
+}
+
+
+/* Section 7 madam */
+#madam{
+    background: url(../img/step02.png);
+    background-position: right;
+
+    margin: 10vh 10% auto 8%;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: 45%;
+}
+#madam h1{
+    padding-top: 10vh;
+}
+#madam img{
+    width: 4%;
+}
+#madam p{
+    font-weight: 300;
+    line-height: 30px;
+    width: 50%;
+    font-size: .9em;
+}
+
+
+
+/* Section 8 mobile */
+#mobile{
+    background-image: url(../img/step03.png);
+    background-position: left;
+  
+    margin: 10vh 10% auto 8%;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    padding-left: 46%;
+}
+    
+#mobile h1{
+    padding-top: 10vh;
+}
+#mobile img{
+    width: 8%;
+}
+#mobile p{
+    font-weight: 300;
+    line-height: 30px;
+    font-size: .9em;
+}
+
+
+
+/* Section 9 discuss */
+#discuss{
+    background: url(../img/step04.png);
+    background-position: right;
+
+    margin: 10vh 10% auto 8%;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: 45%;
+}
+#discuss h1{
+    padding-top: 10vh;
+}
+#discuss img{
+    width: 4%;
+}
+#discuss p{
+    font-weight: 300;
+    line-height: 30px;
+    width: 50%;
+    font-size: .9em;
+}
+
+
+
+#last{
+    margin-top: 10vh;
+    text-align: center;
+}
+#last p:first-of-type{
+    font-size: 1.2rem;
+    font-weight: 300;
+    text-align: center;
+    margin: 0 20%;
+    line-height: 25px;
+}
+#last a{
+    display: block;
+    text-decoration: none; 
+}
+#last a:first-of-type{
+    color: #0b0c17;
+    opacity: .5;
+    border: 1px solid #fff;
+    box-shadow: rgba(0, 0, 0, .05) 0px 0px 10px 10px;
+    border-radius: 5px;
+    margin: 5vh auto;
+    padding: 15px;
+    width: 45%;
+    font-size: 1.2em;
+}
+#last a:last-of-type{
+    margin-bottom: 180vh;
+    background-color: #ff3571;
+    color: #fff;
+    width: 15%;
+    border-radius: 5px;
+    margin: auto;
+    padding: 2vh;
+}
+#last a:last-of-type:hover{
+    background-color: #3C30FF;
+}
+#last p:last-of-type{
+    font-size: .9em;
+    text-align: left;
+    margin-left: 8%;
+    font-weight: 300;
+}
+#last span img{
+    width: 2%;
+}
+/*
+Font: Roboto
+Farben: #0b0c17 / #ff3571 / #dddddd / #3C30FF / #FFF / #000
+*/
